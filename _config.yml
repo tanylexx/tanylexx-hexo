@@ -110,4 +110,7 @@ search:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/tanylexx/tanylexx.github.io # 码云仓库
+  branch: master
+  message: hexo自动部署
